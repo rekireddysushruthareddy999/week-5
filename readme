@@ -1,140 +1,38 @@
-1. Introduction to DOM
+# Week 5 Front-End Assignments
 
-DOM (Document Object Model) is a programming interface for HTML and XML documents. It represents a webpage as a tree structure where JavaScript can access and modify elements dynamically.
+This repository contains Week 5 front-end assignments, including React component demos, flexbox practice, table layouts, and a Tailwind-style landing page.
 
-Features of DOM
-Represents webpage structure as objects
-Allows dynamic content updates
-Helps interact with HTML and CSS using JavaScript
-Supports event handling and animations
+## Folder Structure
 
-DOM connects JavaScript with HTML elements and allows webpages to become interactive. Using DOM, developers can change content, styles, and behavior dynamically.
+- `react1/`
+  - React component demo with `App.jsx`, `Product.jsx`, and `App.css`.
+- `react2/`
+  - React component demo with `App.jsx`, `footer.jsx`, `navigation.jsx`, and `User.jsx`.
+- `styling-flex/`
+  - Flexbox layout practice divided into three examples:
+    - `flex1/` - `index.html`, `style.css`
+    - `flex2/` - `index.html`, `style.css`
+    - `flex3/` - `index.html`, `style.css`
+- `table1/`, `table2/`, `table3/`
+  - Table layout exercises, each with `index.html` and `style.css`.
+- `tailwind/`
+  - Landing page example using Tailwind-style utility classes with `index.html`, `style.css`, and a dedicated `README.md`.
 
-2. DOM Operations with Vanilla JavaScript
+## How to Use
 
-Vanilla JavaScript means using pure JavaScript without any frameworks or libraries.
+1. Open the folder you want to review.
+2. For HTML/CSS demos, open the `index.html` file directly in a browser.
+3. For React examples, inspect the JSX component files in `react1/` and `react2/`.
 
-Common DOM Operations
-Selecting elements
-Changing text and styles
-Adding or removing elements
-Handling events
-Manipulating attributes
-Importance
+## Notes
 
-DOM operations help create interactive web applications such as forms, buttons, dropdowns, and dynamic content updates.
+- The Tailwind folder includes a small landing page demo that uses local CSS and an external image.
+- React examples are component-based but may not include a full build or bundler setup in this repository.
+- Table and flexbox folders demonstrate responsive layout techniques.
 
-Vanilla JavaScript DOM operations help developers directly control webpage elements and user interactions without using external libraries.
+## Recommended Review Order
 
-3. Introduction to ReactJS
-
-ReactJS is a JavaScript library used to build user interfaces, especially single-page applications.
-
-Features of ReactJS
-Component-based architecture
-Fast rendering using Virtual DOM
-Reusable components
-Easy state management
-Efficient UI updates
-Advantages
-Improves performance
-Simplifies UI development
-Makes code reusable and maintainable
-
-ReactJS helps build modern and dynamic web applications efficiently using reusable components and faster rendering techniques.
-
-4. Creating App with Vite
-
-Vite is a modern frontend build tool used to create fast React applications.
-
-Features of Vite
-Fast development server
-Instant hot reload
-Simple project setup
-Optimized build performance
-Benefits
-Faster than traditional build tools
-Improves developer experience
-Easy configuration
-
-Vite is used to quickly create and run React applications with better speed and performance during development.
-
-5. Component-Based Architecture
-
-Component-based architecture divides the UI into small reusable components.
-
-Features
-Reusable code
-Better project organization
-Easier maintenance
-Independent functionality
-Advantages
-Reduces duplication
-Improves readability
-Makes large applications manageable
-
-In React, applications are built using small components that can be reused multiple times, making development easier and cleaner.
-
-6. Virtual DOM
-
-Virtual DOM is a lightweight copy of the real DOM used by React.
-
-Working
-React creates a virtual copy of the UI
-Detects changes efficiently
-Updates only changed elements in the real DOM
-Advantages
-Faster rendering
-Improved performance
-Efficient UI updates
-
-Virtual DOM helps React update webpages quickly by changing only necessary parts instead of reloading the entire page.
-
-7. Component Nesting
-
-Component nesting means placing one component inside another component.
-
-Benefits
-Better UI structure
-Improved code organization
-Reusability of child components
-Importance
-
-Large applications can be divided into smaller nested components for easier management.
-
-Component nesting helps organize React applications by combining smaller components inside parent components to build complex UIs.
-
-8. State and Props
-State
-
-State stores dynamic data inside a component and can change over time.
-
-Features of State
-Managed within component
-Changes dynamically
-Re-renders component when updated
-Props
-
-Props are used to pass data from parent components to child components.
-
-Features of Props
-Read-only
-Used for communication between components
-Improves reusability
-
-State manages changing data inside components, while props transfer data between components in React applications.
-
-9. Reusability of Components
-
-Reusability means using the same component multiple times in different parts of an application.
-
-Advantages
-Reduces code duplication
-Saves development time
-Improves maintainability
-Keeps code organized
-Importance
-
-Reusable components make applications scalable and easier to manage.
-
-Reusable components help developers write code once and use it multiple times, improving efficiency and reducing repetition in React projects.
+1. `styling-flex/` - practice with flexbox layout.
+2. `table1/`, `table2/`, `table3/` - table design exercises.
+3. `tailwind/` - responsive landing page demo.
+4. `react1/` and `react2/` - React component examples.
