@@ -1,0 +1,55 @@
+@import url('https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #b91c1c;
+}
+
+nav {
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+main {
+    min-height: 70vh;
+    align-items: center;
+}
+
+main section img {
+    width: 100%;
+    max-width: 350px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.4);
+}
+
+footer section {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+footer section:hover {
+    transform: translateY(-5px);
+}
+
+footer p {
+    color: #f3f4f6;
+    line-height: 1.6;
+}
+
+@media screen and (max-width: 768px) {
+    main {
+        text-align: center;
+    }
+
+    main section {
+        margin: 0;
+        padding: 20px;
+    }
+
+    footer {
+        padding: 10px;
+    }
+}
